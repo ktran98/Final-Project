@@ -8,18 +8,7 @@ class Item{
 }
 
 //Create your three test items below this comment.
-this.doll = new Item{
-  this.name = Teddy;
-  this.price = 25;
-  this.shipping = 2;
-};
-this.game = new Item{
-  this.name = pokemon;
-  this.price = 30;
-  this.shipping = 3;
-};
-this.toy = new Item{
-  this.name = mini car;
-  this.price = 15;
-  this.shipping = 1;
-}
+this.doll = new Item("Teddy",25,2);
+this.game = new Item("Pokemon",30,3);
+this.toy = new Item("Mini Car",15,1);
+  
