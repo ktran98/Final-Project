@@ -6,9 +6,18 @@ constructor(publickey, privatekey){
 }
   //Instance functions below this comment.
   function validPublickey(){
-    let 8<valid<25
-    for (var 8<p<25; p = this.publickey[].lenght;p++)
-    if this.publickey[p] = true
+    validPublicKey(){
+     if(this.publickey.length >=8 && this.publickey.length <=25);
+       return true
+     }
+     else{
+      return false
+    }
+
+    validPrivateKey(){
+     if(this.privatekey[4] == )"-" && this.privatekey[9] == "-");
+       return true
+         
   }
 
 
